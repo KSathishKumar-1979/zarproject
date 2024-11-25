@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.navbar{
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  display: flex;   
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  color: goldenrod;
+}
+.navbarUl{
+  width: 55%;
+  height: 100%;
+  display: flex;      
+  align-items: end;
+  justify-content:center;
+   
+  gap: 20px;
+}
+.navbtns{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.navbarinner ul{
+  width: 73%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+.navbarinner ul li{
+  list-style: none;
+  color: blanchedalmond;
+}
+.banner{
+  width: 100%;
+  height: 100%;
+    
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   background-image: url("../Images/BackgrondImage.jpg");
+}
+
+.Iconbanner{
+  width: 100%;
+  height: 20%;
+    background-color: black;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   /* background-image: url(./Assets/Images/BackgrondImage.jpg); */
+}
+.Iconbar{
+  background-color: red;
+}
+
+.bg{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  background-color: yellow;
+}
+.bg img{
+  width: 100%;
+  height: 100%;
+}
